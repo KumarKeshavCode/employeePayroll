@@ -72,6 +72,7 @@ body{
 
   .radio-group{
     margin-top: 25px;
+    margin-bottom: 25px;
     justify-content: space-between;
   }
 
@@ -79,8 +80,38 @@ body{
     margin-top: 25px;
     margin-bottom: 25px;
     justify-content: space-between;
+    padding-left: 2px;
   }
 
   #gender{
-   
+      
+      margin-bottom: 25px;
   }
+
+  #dept{
+    margin-bottom: 25px;
+  }
+
+  #salary{
+    margin-bottom: 25px;
+  }
+
+  #startday{
+    margin-bottom: 25px;
+  }
+
+  #note{
+     margin-bottom: 25px;
+  }
+
+  .btncolor{
+    background-color: #00000029;
+  }
+#btn{
+   display: flex;
+   
+}
+
+#btngrp{
+  margin-left: 20%;
+}
