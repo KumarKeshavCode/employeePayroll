@@ -1,0 +1,13 @@
+{
+    "employees": [
+        {
+            "url" :"Ellipse -1.png",
+            "name":"kumar",
+            "id":"ccf9",
+            "gender":"male",
+            "salary":"₹ 49000",
+            "startDate":"29 oct 2014",
+            "department":"Finance Manager"
+        }
+    ]
+}

@@ -138,17 +138,13 @@ i{
     padding-left: 100px;
   } */
 
-.name{
-  
-  
-  padding-left: 100%;
-}
 
 .styled-table thead {
   padding-left: 200px;
   border-top-left-radius: 8px;
   border-top-right-radius:8px;
   overflow: hidden; /* Ensure the border-radius is applied correctly */
+  
 }
 
 .styled-table thead th:first-child {
@@ -175,10 +171,12 @@ i{
   .styled-table {
     border-collapse: collapse;
     width: 100%;
+    border: #F7F7F7;
+    /* border-width: 10px; */
   }
 
   .styled-table th, .styled-table td {
-    border: none;
+    border: 2px #F7F7F7;
     padding: 8px;
     text-align: left;
   }
