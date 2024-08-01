@@ -6,9 +6,21 @@
    
 }
 
+.roboto-regular {
+  font-family: "Roboto", sans-serif;  
+  font-weight: 400;  
+  font-style: normal;
+}
+
+
+
+
 body{
-    font-family: "Montserrat",sans-serif;
+    
     background-color:#F7F7F7;
+    font-family:"Roboto", sans-serif;
+    font-size: medium;
+     font-weight: 400px;
 }
 
 #head1{
@@ -73,12 +85,38 @@ body{
      margin-bottom: 20px;
 
 } 
+
+#searchbar{
+  background-color: red;
+  display: flex;
+  align-items: center;
+  
+}
 #bodytoptext{
   font-weight: bold;
   font-size: 20px;
   color: #42515F;
   letter-spacing: -1px;
 }
+
+#inputsearch{
+  transition: width 0.5s ease;
+  width: 200px;
+  padding: 5px;
+ 
+}
+
+#inputsearch.active{
+  width: 400px;
+}
+
+
+#search{
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+
 
 
 i{
@@ -128,8 +166,8 @@ i{
     overflow: hidden;
     
    
-    letter-spacing: -1px;
-    font-size: 13px;
+   
+    
     
 }
 

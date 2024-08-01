@@ -29,77 +29,78 @@
       <div class="radio-group">
         
         <label >Profile image </label>
-      <input type="radio" id="profile1" name="profile_img" value="img1" required>
+      <input type="radio" id="profile_img" name="profile_img" value="Assets/Ellipse 1.png" required>
       
         <img src="../Assets/Ellipse 1.png" alt="" width="36" height="36">
        
-        <input type="radio" id="profile1" name="profile_img" value="img1" required>
+        <input type="radio" id="profile1" name="profile_img" value="Assets/Ellipse -3.png" required>
       
-        <img src="../Assets/Ellipse 1.png" alt=""  width="36" height="36">
+        <img src="../Assets/Ellipse -3.png" alt=""  width="36" height="36">
        
-        <input type="radio" id="profile1" name="profile_img" value="img1" required>
+        <input type="radio" id="profile1" name="profile_img" value="Assets/Ellipse -2.png" required>
       
-        <img src="../Assets/Ellipse 1.png" alt=""  width="36" height="36">
+        <img src="../Assets/Ellipse -5.png" alt=""  width="36" height="36">
        
-        <input type="radio" id="profile1" name="profile_img" value="img1" required>
+        <input type="radio" id="profile1" name="profile_img" value="Assets/Ellipse -3.png" required>
       
-        <img src="../Assets/Ellipse 1.png" alt=""  width="36" height="36">
+        <img src="../Assets/Ellipse -8.png" alt=""  width="36" height="36">
           
       </div>
 
       <div  id="gender">
         <label for="">Gender        </label>
-        <input type="radio" > Male 
-        <input type="radio">Female
+        <input  id="male" type="radio" name="gender" value="Male" > Male 
+        <input  id="female" type="radio" name="gender" value="Female">Female
       </div>
 
      
       <div id="dept">
         <label for="">Department</label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="department" id="hr" value="HR">
         <label for="hr">HR</label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="department" id="sales" value="Sales">
         <label for="sales">Sales</label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="department" id="Finance">
         <label for="finace">Finance</label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="department" id="Engineer ">
         <label for="engineer">Engineer </label>
-        <input type="checkbox" name="" id="">
+        <input type="checkbox" name="department" id="other">
         <label for="other">Other</label>
 
       </div>
 
       <div id="salary">
         <label for="salary">Salary</label>
-        <select name="salary" id="salary" >required
-          <option value="" disabled selected>Select Salary</option>
-        <option value="below 30k">₹ 25000</option>
-        <option value="10000">₹ 10000</option>
+        <select id="salary"  name="salary">required
+          <option id="" value="25000" disabled selected>Select Salary</option>
+        <option name="salary" id="" value="25000">₹ 25000</option>
+        <option name="salary" id="" value="10000">₹ 10000</option>
+        <option name="salary" id="" value="15000">₹ 15000</option>
       </select>
       </div>
 
       <div id="startday">
         <label for="">Start Date</label>
-        <select name="" id="">
+        <select name="" id="startdate">
           <option value="" disabled selected>Day</option>
           <option value="1">1</option><option value="1">1</option>
-          <option value="1">2</option>
-          <option value="1">3</option>
-          <option value="1">4</option>
-          <option value="1">5</option>
-          <option value="1">6</option>
-          <option value="1">7</option>
-          <option value="1">8</option>
-          <option value="1">9</option>
-          <option value="1">10</option>
-          <option value="1">11</option>
-          <option value="1">12</option>
-          <option value="1">13</option>
-          <option value="1">14</option>
-          <option value="1">15</option>
-          <option value="1">16</option>
-          <option value="1">17</option>
-          <option value="1">18</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="17">18</option>
         </select>
 
         <select name="startmonth" id="month">
@@ -114,12 +115,12 @@
 
         <select name="year" id="year">
         <option value="" selected disabled>Year</option>
-        <option value="">2024</option>
-        <option value="">2023</option>
-        <option value="">2022</option>
-        <option value="">2021</option>
-        <option value="">2020</option>
-        <option value="">2019</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
          </select>
       </div>
 
@@ -130,11 +131,11 @@
       </div>
 
       <div id="btn">
-        <button type="cancel" class="btncolor">Cancel</button>
+        <button type="cancel"  id="cancelbtn"  class="btncolor">Cancel</button>
         
         <div id="btngrp">
           <a href=""></a>
-        <button type="submit" class="btncolor">Submit</button>
+        <button type="submit" id="sbtn" class="btncolor">Submit</button>
         <button type="reset" class="btncolor">Reset</button>
         </div>
 
@@ -151,5 +152,6 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     <script src="../JQ/formjquery.js" ></script>
   </body>
 </html>
