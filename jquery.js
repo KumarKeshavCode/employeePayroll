@@ -99,6 +99,54 @@ $("#bodytoptext").css("cursor", "pointer").click(function(){
   loadEmployee();
 })
 
+
+function displayEmplloyees(employees){
+  $('#employeeTable tbody').empty();
+
+  employees.forEach(function(employee){
+       let row = `<tr>
+      
+       <td><img src="${employee.profile_img}" alt ="profile img"   </td>
+       <td>${employee.name}</td>
+       <td>${employee.gender}</td>
+       <td>${employee.department.join(', ')}</td>
+       <td>${employee.salary}</td>
+       <td>${employee.startday}</td>
+       
+       <td>
+       <img src ="./Assets/delete-black-18dp.svg" class ="" data-id="${employee.id}" alt ="Edit" title="Edit" , style ="cursor :pointer ;width:20px ;height;20px;">
+       
+       <img src ="./Assets/create-black-18dp.svg" class ="" data-id="${employee.id}" alt ="Edit" title="Edit" , style ="cursor :pointer ;width:20px ;height;20px;">
+       </td>
+
+       </tr>`;
+       $('#employeeTable tbody').append(row);
+  });
+}
+
+
+//Filter employee base on name and gender 
+
+$("#inputsearch").on('input', function(){
+  let query = $(this).val().toLowerCase();
+
+  $.ajax({
+    url: 'http://localhost:3000/employees',
+    method: 'GET',
+    success: function(employees){
+      let fiterEmployees = employees.filter(function(employee){
+        return employee.name.toLowerCase().includes(query) || employee.gender.toLowerCase().includes(query) ;
+      }); 
+            displayEmplloyees(fiterEmployees)
+      },
+      error : function(error ){
+        console.log(error);
+    }
+  });
+})
+
+
+
   //Delete the row by delet icon
 
   $(document).on('click','.delbtn',function(){

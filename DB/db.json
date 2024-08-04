@@ -1,225 +1,28 @@
 {
   "employees": [
     {
-      "id": "02bc",
-      "name": "mayank",
+      "id": "4e57",
+      "name": "kanata",
       "profile_img": "Assets/Ellipse -3.png",
       "gender": "Male",
       "department": [
         "HR",
         "Sales"
       ],
-      "salary": "₹ 25000",
+      "salary": "₹ 15000",
       "startday": "10 jan 2020"
     },
     {
-      "id": "d3ed",
-      "name": "mayank",
-      "gender": "Male",
-      "department": [
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "8c61",
-      "name": "mayank",
-      "profile_img": "Assets/Ellipse -3.png",
-      "gender": "Male",
-      "department": [
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "c751",
-      "name": "mayank",
-      "gender": "Male",
-      "department": [
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "9d7a",
-      "name": "mayank",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "ce6d",
-      "name": "mayankkkkkkkkkk",
-      "gender": "Male",
-      "department": [
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "8df5",
-      "name": "mayank",
-      "gender": "Male",
-      "department": [
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "94fc",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "profile_img": "Assets/Ellipse 1.png",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ 10000",
-      "startday": "16 jan 2024"
-    },
-    {
-      "id": "fb03",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
+      "id": "0c52",
+      "name": "piyush",
       "profile_img": "Assets/Ellipse -3.png",
       "gender": "Male",
       "department": [
         "HR",
-        "Sales",
-        "on",
-        "on"
-      ],
-      "salary": "₹ 10000",
-      "startday": "16 jan 2022"
-    },
-    {
-      "id": "7299",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "3ece",
-      "name": "mayank",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "b437",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "ce02",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "8f11",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
         "Sales"
       ],
       "salary": "₹ 10000",
-      "startday": "null null null"
-    },
-    {
-      "id": "cfec",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "407d",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "f42e",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "3da1",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "8ffb",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
-    },
-    {
-      "id": "68b6",
-      "name": "hhhhhhhhhhhhhhhhhhhhhhhhhhh",
-      "gender": "Male",
-      "department": [
-        "HR",
-        "Sales"
-      ],
-      "salary": "₹ null",
-      "startday": "null null null"
+      "startday": "10 jan 2023"
     }
   ]
 }
